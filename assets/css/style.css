@@ -1,0 +1,217 @@
+/* --------------------
+# General
+-------------------- */
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #444;
+}
+
+a {
+    color: #ffb727;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffe368;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Raleway", sans-serif;
+}
+
+/* --------------------
+# Header
+-------------------- */
+#header {
+    z-index: 999;
+    transition: all 0.5s;
+    height: 80px;
+    background: rgba(25, 28, 31, 0.8);
+    box-shadow: 0 1px 8px 0 rgba(255, 255, 255, 0.8);
+}
+
+/* --------------------
+# Navbar
+-------------------- */
+
+/* Desktop Navbar */
+.navbar {
+    padding: 0;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.navbar li {
+    position: relative;
+}
+
+.navbar a,
+.navbar a:focus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    color: #fff;
+    white-space: nowrap;
+    transition: 0.3s;
+    font-size: 14px;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.navbar a i,
+.navbar a:focus i {
+    font-size: 1px;
+    line-height: 0;
+    margin-left: 5px;
+}
+
+.navbar a:hover,
+.navbar .active,
+.navbar .active:focus,
+.navbar li:hover a {
+    font-size: 18px;
+    color: #ffe368;
+}
+
+/* Mobile Navbar */
+.mobile-nav-toggle {
+    color: #fff;
+    font-size: 28px;
+    cursor: pointer;
+    display: none;
+    line-height: 0;
+    transition: 0.5s;
+}
+
+@media (max-width: 991px) {
+    .mobile-nav-toggle {
+        display: block;
+    }
+
+    .navbar ul {
+        display: none;
+    }
+} 
+
+/* --------------------
+# Hero Section
+-------------------- */
+#hero {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/polygon.jpg) top center;
+    background-size: cover;
+    position: relative;
+}
+
+#hero .hero-container {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 15px;
+}
+
+#hero h1 {
+    margin: 0 0 10px 0;
+    font-size: 100px;
+    font-family: "Satisfy", serif;
+    color: #fff;
+}
+
+#hero h2 {
+    color: #ffe368;
+    margin-bottom: 50px;
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+@media (min-width: 1024px) {
+    #hero {
+        background-attachment: fixed;
+    }
+}
+
+@media (max-width: 575px) {
+    #hero h1 {
+        font-size: 60px;
+    }
+
+    #hero h2 {
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+
+/* --------------------
+# Section General
+-------------------- */
+section {
+    padding: 60px 0;
+    background-color: #04011e;
+}
+
+.section-title {
+    text-align: center;
+    padding: 30px 0;
+    position: relative;
+}
+
+.section-title h2 {
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    color: #eef0f2;
+    position: relative;
+    z-index: 2;
+}
+
+.section-title span {
+    position: absolute;
+    top: 40px;
+    color: #2c1c41;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    font-weight: 700;
+    font-size: 52px;
+    text-transform: uppercase;
+    line-height: 0;
+}
+
+@media (max-width: 575px) {
+    .section-title h2 {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    .section-title span {
+        font-size: 38px;
+        top: 35px;
+    }
+}
