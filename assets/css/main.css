@@ -50,39 +50,37 @@ html {
 }
 
 /* Desktop Navbar */
-@media (min-width: 1200px) {
-    .navbar {
-        padding: 0;
-    }
+.navbar {
+    padding: 0;
+}
 
-    .navbar ul {
-        margin: 0;
-        padding: 0;
-        display: flex;
-        list-style: none;
-        align-items: center;
-    }
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
 
-    .navbar li {
-        position: relative;
-    }
+.navbar li {
+    position: relative;
+}
 
-    .navbar ul li {
-        white-space: nowrap;
-        padding: 15px 35px;
-    }
+.navbar ul li {
+    white-space: nowrap;
+    padding: 15px 35px;
+}
 
-    .navbar a {
-        font-family: Rubik;
-        font-size: 18px;
-        color: white;
-        text-decoration: none;
+.navbar a {
+    font-family: Rubik;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
 
-    }
 }
 
 /* Mobile Navbar */
-@media (max-width: 1199px) {
+@media only screen and (max-width: 1199px) {
     .mobile-navbar {
         cursor: pointer;
         margin-right: 10px;
@@ -126,7 +124,7 @@ html {
     color: royalblue;
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     .hero h2 {
         font-size: 60px;
     }
@@ -179,7 +177,7 @@ html {
     color: white;
 }
 
-@media (max-width: 1199px) {
+@media only screen and (max-width: 1199px) {
     .about p {
         font-size: 20px;
     }
