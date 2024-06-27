@@ -210,3 +210,66 @@ section {
         top: 35px;
     }
 }
+
+/* --------------------
+# About Section
+-------------------- */
+.about .image {
+    background: url("../img/josh.jpg") center center no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    border-radius: 20px;
+}
+
+.about .content {
+    margin-top: 15px;
+}
+
+.about .content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about .content ul li {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.about .content ul strong {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.about .content ul span {
+    color: #fff;
+    font-size: 20px;
+    font-family: "Rubik";
+}
+
+.about .achivements {
+    padding-top: 20px;
+}
+
+.about h3 {
+    display: flex;
+    align-self: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: #ffe368;
+}
+
+.about .achivements ul li strong {
+    text-wrap: nowrap;
+}
+
+.about .achivements ul li span {
+    text-wrap: balance;
+}
+
+@media (min-width: 575px) {
+    .about .achivements ul {
+        padding-left: 50px;
+    }
+}
