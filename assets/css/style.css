@@ -248,7 +248,7 @@ section {
     font-family: "Rubik";
 }
 
-.about .achivements {
+.about .achievements {
     padding-top: 20px;
 }
 
@@ -260,16 +260,16 @@ section {
     color: #ffe368;
 }
 
-.about .achivements ul li strong {
+.about .achievements ul li strong {
     text-wrap: nowrap;
 }
 
-.about .achivements ul li span {
+.about .achievements ul li span {
     text-wrap: balance;
 }
 
 @media (min-width: 575px) {
-    .about .achivements ul {
+    .about .achievements ul {
         padding-left: 50px;
     }
 }
