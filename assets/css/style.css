@@ -118,8 +118,13 @@ h6 {
     height: 100vh;
     background: url(../img/polygon.jpg) top center;
     background-size: cover;
-    background-attachment: fixed;
     position: relative;
+}
+
+@media (max-width: 575px) {
+    #hero {
+        background-attachment: fixed;
+    }
 }
 
 #hero .hero-container {
