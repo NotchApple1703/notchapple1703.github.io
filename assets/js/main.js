@@ -1,8 +1,8 @@
 var typed = new Typed('#typed-greeting', {
   strings: [
-    'Student',
-    'Developer',
-    'Translator',
+    'Vui vẻ',
+    'Hài hước',
+    'Tưởng mình vui vẻ và hài hước =)',
   ],
   typeSpeed: 80,
   backSpeed: 35,

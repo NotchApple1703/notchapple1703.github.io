@@ -222,10 +222,11 @@ section {
 # About Section
 -------------------- */
 .about .image {
-    background: url("../img/josh.jpg") center center no-repeat;
+    background: url("../img/notch.png") center center no-repeat;
     background-size: cover;
     min-height: 500px;
-    border-radius: 20px;
+    border-radius: 30px;
+    border: 2px solid white;
 }
 
 .about .content {
@@ -252,7 +253,7 @@ section {
 .about .content ul span {
     color: #fff;
     font-size: 20px;
-    font-family: "Rubik";
+    font-family: "Rubik", sans-serif;
 }
 
 .about .achievements {
